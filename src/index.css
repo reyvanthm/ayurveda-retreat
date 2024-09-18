@@ -147,3 +147,30 @@ button:focus-visible {
   padding: 20px;
   margin-top: auto; /* Stick footer to the bottom */
 }
+
+
+
+/* Home.css */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.full-width-image img {
+  width: 100%;
+  height: auto;
+}
+
+.text-section, .image-card-section, .preferences-box {
+  padding: 20px;
+  text-align: left;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: auto;
+}
