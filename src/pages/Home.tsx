@@ -40,11 +40,14 @@ const Home: React.FC = () => {
           <li>The use of natural remedies and therapies to promote wellness</li>
           <li>The emphasis on prevention and self-care</li>
         </ul>
-
+        
+        <div className="definition">
         <p>By embracing the wisdom of Ayurveda, you can embark on a journey of self-discovery and transformation, cultivating a deeper connection with your 
           body, mind, and spirit. By partnering with the best in the industry, we're able to offer our guests a truly exceptional Ayurveda retreat experience. 
           Join us and discover the transformative power of Ayurveda.</p>
+        </div>
       </div>
+
 
       {/* Image Card Section */}
       <ImageCardSection />

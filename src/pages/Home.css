@@ -78,4 +78,6 @@
     white-space: nowrap;
   }
   
-  
+  .definition {
+    text-align: center;
+  }
