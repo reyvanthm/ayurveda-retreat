@@ -34,11 +34,11 @@ footer {
 }
 
 .logo-details img {
-  /* width: 100px;
-  height: auto; */
+  width: 100px;
+  height: auto;
   width: 92.23px;
   height: 95.82px;
-  top: 181px;
+  top: 81px;
   left: 34px;
   gap: 0px;
   opacity: 0px;
