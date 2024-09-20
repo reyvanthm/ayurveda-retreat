@@ -1,45 +1,20 @@
-import React from 'react';
-import Header from './components/Header';
-import ImageCardSection from './components/ImageCardSection';
-import PreferencesBox from './components/PreferencesBox';
-import Footer from './components/Footer';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './pages/Home';
+// import AboutUs from './pages/AboutUs';
+// import Services from './pages/Services';
 
-const App: React.FC = () => {
+function App() {
   return (
-    <div className="app">
-      <Header />
-      
-      {/* Full-width rectangle image */}
-      <div className="full-width-image">
-        <img src="path_to_your_image" alt="Ayurveda Retreat" />
-      </div>
-
-      {/* Text Section */}
-      <div className="text-section">
-        <h2>Ayurveda Retreat</h2>
-
-        <h3 style={{ textAlign: 'center', fontWeight: 'bold' }}>What is Ayurveda?</h3>
-        <p>Ayurveda is a holistic healing system that ...</p>
-
-        <h3 style={{ textAlign: 'left', fontWeight: 'bold' }}>The Core Principles of Ayurveda:</h3>
-        <ul>
-          <li>Principle 1</li>
-          <li>Principle 2</li>
-          <li>Principle 3</li>
-        </ul>
-
-        <p>About the company: We are dedicated to ...</p>
-      </div>
-
-      {/* Image card section */}
-      <ImageCardSection />
-
-      {/* Full-width rectangle box for preferences */}
-      <PreferencesBox />
-
-      <Footer />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home />} />
+        {/* <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/services" element={<Services />} /> */}
+      </Routes>
+    </Router>
   );
-};
+}
 
 export default App;

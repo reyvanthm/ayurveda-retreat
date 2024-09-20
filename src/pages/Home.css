@@ -1,0 +1,81 @@
+
+.app {
+    background: rgba(245, 243, 239, 1);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .full-width-image img {
+    background-color: white;
+    width: 100%;
+    height: auto;
+  }
+  
+  .image-card-section, .preferences-box {
+    background: rgba(245, 243, 239, 1);
+    padding: 20px;
+    text-align: left;
+    color: #000;
+  }
+  
+  .text-section {
+    background: rgba(245, 243, 239, 1) !important   ;
+    padding: 20px;
+    text-align: left;
+    color: #000 !important;
+    text-align: left; /* Ensure all text is left-aligned */
+    margin-left: 0; /* Remove any default left margin */
+    font-family: Raleway !important;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    
+
+  }
+
+  .text-section h2 {
+    text-align: center;
+  }
+  
+  .footer {
+    background: rgba(245, 243, 239, 1);
+    color: black;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+  }
+  
+
+.full-width-image img {
+    width: 1280px;    
+    height: 285px;    
+    /* position: relative; 
+    top: 75px;        
+    left: 5px;        
+    gap: 0px;        
+    opacity: 100;        */
+  }
+
+
+  /* Section heading */
+.section-heading {
+    width: 297px;
+    height: 32px;
+    margin: 20px auto; /* Center the heading and add some space above it */
+    opacity: 1; /* Make sure it's visible */
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: rgba(195, 145, 26, 1);  /* Set text color to white */
+    padding: 10px;
+    border-radius: 8px; /* Optional: to make the background slightly rounded */
+    white-space: nowrap;
+  }
+  
+  
